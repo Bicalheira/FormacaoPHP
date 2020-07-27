@@ -22,6 +22,8 @@ $currentCounts['111.111.111-11'] = deposit($currentCounts['111.111.111-11'], -50
 $currentCounts['222.222.222-22'] = deposit($currentCounts['222.222.222-22'], 2000);
 $currentCounts['333.333.333-33'] = deposit($currentCounts['333.333.333-33'], 500);
 
+ownerWithCapitalLetters($currentCounts['333.333.333-33']);
+
 showMessage("");
 
 showCurrentCounts($currentCounts);
