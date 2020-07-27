@@ -24,6 +24,9 @@ $currentCounts['333.333.333-33'] = deposit($currentCounts['333.333.333-33'], 500
 
 ownerWithCapitalLetters($currentCounts['333.333.333-33']);
 
+unset($currentCounts['222.222.222-22']);
+// removerOwner($currentCounts['222.222.222-22']);
+
 showMessage("");
 
 showCurrentCounts($currentCounts);
