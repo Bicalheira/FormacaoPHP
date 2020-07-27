@@ -8,7 +8,7 @@ $currentCounts = [
   '333.333.333-33' => ['owner' => 'Fraga', 'balance' => 300]
 ];
 
-showCurrentCounts($currentCounts);
+showCurrentAccounts($currentCounts);
 
 showMessage("");
 
@@ -29,4 +29,32 @@ unset($currentCounts['222.222.222-22']);
 
 showMessage("");
 
-showCurrentCounts($currentCounts);
+showCurrentAccounts($currentCounts);
+?>
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Current Accounts</h1>
+  </header>
+
+  <dl>
+    <?php foreach ($currentCounts as $cpf => $account) { ?>
+      <dt>
+        <h3><?= $account['owner']; ?> - <?= $cpf ?>; </h3>
+      </dt>
+      <dd>Balance: <?= $account['balance']; ?></dd>
+    <?php } ?>
+  </dl>
+
+</body>
+
+</html>

@@ -21,7 +21,7 @@ function deposit(array $account, float $depositValue)
   return $account;
 }
 
-function showCurrentCounts(array $currentCounts)
+function showCurrentAccounts(array $currentCounts)
 {
   foreach ($currentCounts as $cpf => $account) {
     ['owner' => $owner, 'balance' => $balance] = $account;
