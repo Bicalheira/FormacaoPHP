@@ -24,7 +24,8 @@ function deposit(array $account, float $depositValue)
 function showCurrentCounts(array $currentCounts)
 {
   foreach ($currentCounts as $cpf => $account) {
-    showMessage("{$cpf}\t{$account['owner']}\t{$account['balance']}");
+    ['owner' => $owner, 'balance' => $balance] = $account;
+    showMessage("{$cpf}\t$owner\t$balance");
   }
 }
 
