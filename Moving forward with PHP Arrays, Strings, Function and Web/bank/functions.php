@@ -38,3 +38,8 @@ function ownerWithCapitalLetters(array &$account)
 {
   $account['owner'] = mb_strtoupper($account['owner']);
 }
+
+// function removerOwner(array $account){
+//   unset($account);
+//   echo "{$account['owner']} was been deleted!";
+// }
