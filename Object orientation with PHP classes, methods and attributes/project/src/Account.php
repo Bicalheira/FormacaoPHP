@@ -11,17 +11,30 @@ class Account
 
     if ($withdrawValue > $this->balance) {
       echo "Balance unavailable!" . PHP_EOL;
-    } else {
-      $this->balance -= $withdrawValue;
+      return;
     }
+
+    $this->balance -= $withdrawValue;
   }
 
   public function deposit(float $depositValue)
   {
-    if ($depositValue > 0) {
-      $this->balance += $depositValue;
-    } else {
-      echo "The deposit value need be plus than zero!";
+    if ($depositValue < 0) {
+      echo "The deposit value need be plus than zero!" . PHP_EOL;
+      return;
     }
+
+    $this->balance += $depositValue;
+  }
+
+  public function transfer(float $transferValue, Account $destinationAccount)
+  {
+    if ($transferValue > $this->balance) {
+      echo "Balance unavailable!" . PHP_EOL;
+      return;
+    }
+    if (!$this->withdraw($transferValue)) {
+      $destinationAccount->deposit($transferValue);
+    } 
   }
 }
