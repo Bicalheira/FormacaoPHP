@@ -18,7 +18,7 @@ class Account
 
   public function deposit(float $depositValue)
   {
-    if($depositValue > 0){
+    if ($depositValue > 0) {
       $this->balance += $depositValue;
     } else {
       echo "The deposit value need be plus than zero!";
