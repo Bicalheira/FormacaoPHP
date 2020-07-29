@@ -1,20 +1,16 @@
 <?php
 
 require 'src/Account.php';
+require 'src/Owner.php';
 
-$account1 = new Account();
-$account2 = new Account();
+$account1 = new Account(new Owner('111.111.111-11', 'Lucas'));
+$account2 = new Account(new Owner('222.222.222-22', 'Bicalho'));
 
-$account1->ownerCPF = '111.111.111-11';
-$account1->ownerName = 'Lucas';
-$account1->balance = 500;
+$account1->deposit(500);
+$account2->deposit(500);
 
-$account2->ownerCPF = '222.222.222-22';
-$account2->ownerName = 'Bicalho';
-$account2->balance = 500;
+echo $account1->getOwner() . PHP_EOL;
+echo $account1->getOwnerCPF() . PHP_EOL;
+echo $account1->getBalance() . PHP_EOL;
 
-$account1->transfer(500, $account2);
-
-var_dump($account1, $account2);
-
-
+// var_dump($account1, $account2);
