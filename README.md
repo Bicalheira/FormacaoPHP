@@ -1,6 +1,7 @@
-
+<img text="center" src="https://user-images.githubusercontent.com/44374718/88841819-dec51d80-d1b4-11ea-9385-09c8c672836e.png" alt="PHP logo">
+<hr/>
 <h1>
-Formation in <img text="center" width=50px  src="https://user-images.githubusercontent.com/44374718/88841819-dec51d80-d1b4-11ea-9385-09c8c672836e.png" alt="PHP logo">
+Formation in PHP
 </h1>
 
 <p>
