@@ -8,7 +8,7 @@ class Owner
   public function __construct(Cpf $cpf, string $name)
   {
     $this->cpf = $cpf;
-    $this->validatesOwnerName($name)  ;
+    $this->validatesOwnerName($name);
     $this->name = $name;
   }
 

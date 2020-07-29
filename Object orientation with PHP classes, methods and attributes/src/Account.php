@@ -71,7 +71,7 @@ class Account
     return $this->owner->getName();
   }
 
-  
+
   public function getOwnerCPF(): string
   {
     return $this->owner->getCpf();
