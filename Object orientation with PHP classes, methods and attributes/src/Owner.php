@@ -2,10 +2,10 @@
 
 class Owner
 {
-  private string $cpf;
+  private Cpf $cpf;
   private string $name;
 
-  public function __construct(string $cpf, string $name)
+  public function __construct(Cpf $cpf, string $name)
   {
     $this->cpf = $cpf;
     $this->validatesOwnerName($name)  ;
@@ -14,7 +14,7 @@ class Owner
 
   public function getCpf()
   {
-    return $this->cpf;
+    return $this->cpf->getCpf();
   }
 
   public function getName()
