@@ -1,5 +1,11 @@
-<h1>Formation PHP</h1>
-This repository is the result of the Formation PHP course of Alura where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
+
+<h1>
+Formation in <img text="center" width=50px  src="https://user-images.githubusercontent.com/44374718/88841819-dec51d80-d1b4-11ea-9385-09c8c672836e.png" alt="PHP logo">
+</h1>
+
+<p>
+This repository is the result of the Formation PHP course of <a href=""https://www.alura.com.br/>Alura</a> where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
+</p>
 </br></br>
 <ul>
   <li><a href="#text1">1º - Introduction to PHP Getting started with a language</a></li>
@@ -23,5 +29,6 @@ This repository is the result of the Formation PHP course of Alura where I learn
 <p>
 </p>
 </br>
+
 
 
