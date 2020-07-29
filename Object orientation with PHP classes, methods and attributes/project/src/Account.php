@@ -2,16 +2,13 @@
 
 class Account
 {
-  private string $ownerCPF;
-  private string $ownerName;
+  private Owner $owner;
   private float $balance;
   private static int $accountNumbers = 0;
 
-  public function __construct(string $ownerCPF, string $ownerName)
+  public function __construct(Owner $owner)
   {
-    $this->ownerCPF = $ownerCPF;
-    $this->validatesOwnerName($ownerName);
-    $this->ownerName = $ownerName;
+    $this->owner = $owner;
     $this->balance = 0;
 
     self::$accountNumbers++;
@@ -25,14 +22,6 @@ class Account
   public static function recoverAccountNumbers(): int
   {
     return self::$accountNumbers;
-  }
-
-  private function validatesOwnerName(string $ownerName)
-  {
-    if (strlen($ownerName) < 5) {
-      echo "The name needs at least five characters!";
-      exit();
-    }
   }
 
   public function withdraw(float $withdrawValue): void
@@ -77,23 +66,14 @@ class Account
     return $this->balance;
   }
 
+  public function getOwner(): string
+  {
+    return $this->owner->getName();
+  }
+
+  
   public function getOwnerCPF(): string
   {
-    return $this->ownerCPF;
+    return $this->owner->getCpf();
   }
-
-  // public function setOwnerCPF(string $ownerCPF)
-  // {
-  //   $this->ownerCPF = $ownerCPF;
-  // }
-
-  public function getOwnerName(): string
-  {
-    return $this->ownerName;
-  }
-
-  // public function setOwnerName(string $ownerName)
-  // {
-  //   $this->ownerName = $ownerName;
-  // }
 }
