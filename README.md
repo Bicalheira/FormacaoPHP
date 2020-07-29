@@ -1,2 +1,5 @@
-# Formation PHP
-This repository is the result of the Formation PHP course of Alura where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling
+<h1>Formation PHP</h1>
+</br>
+This repository is the result of the Formation PHP course of Alura where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
+
+
