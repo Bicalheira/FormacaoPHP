@@ -1,5 +1,5 @@
 <img text="center" src="https://user-images.githubusercontent.com/44374718/88841819-dec51d80-d1b4-11ea-9385-09c8c672836e.png" alt="PHP logo">
-<hr/>
+
 <h1>
 Formation in PHP
 </h1>
@@ -17,7 +17,7 @@ This repository is the result of the Formation PHP course of <a href=""https://w
 
 <h2 id="text1">Introduction to PHP Getting started with a language</h2>
 <p>
-  Where it all begins! With a hello world, of course! In this repository is the first chapter of the PHP study, where you can find simple code exaples with some activities using basic structures (for, if, while and etc.) and end with a "challenge" to use everything that has been studied in this chapter.
+  Where it all begins! With a <strong>hello world</strong>, of course! In this repository is the first chapter of the PHP study, where you can find simple code exaples with some activities using basic structures (for, if, while and etc.) and end with a "challenge" to use everything that has been studied in this chapter.
 </p>
 </br>
 
