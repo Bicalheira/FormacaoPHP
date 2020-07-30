@@ -3,7 +3,7 @@
 <h1>Formation in PHP</h1>
 
 <p>
-This repository is the result of the Formation PHP course of <a href=""https://www.alura.com.br/>Alura</a> where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
+This repository is the result of the Formation PHP course of <a href="https://www.alura.com.br"/>Alura</a> where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
 </p>
 </br></br>
 
@@ -18,7 +18,6 @@ This repository is the result of the Formation PHP course of <a href=""https://w
 <p>
   Where it all begins! With a <strong>hello world</strong>, of course! In this repository is the first chapter of the PHP study, where you can find simple code exaples with some   activities using basic structures (for, if, while and etc.) and end with a "challenge" to use everything that has been studied in this chapter.
 </p>
-
 <p><code>echo "Hello World!;</code></p>
 </br>
 
@@ -31,6 +30,3 @@ This repository is the result of the Formation PHP course of <a href=""https://w
 <p>
 </p>
 </br>
-
-
-
