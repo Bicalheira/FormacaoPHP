@@ -29,5 +29,6 @@ This repository is the result of the Formation PHP course of <a href="https://ww
 
 <h2 id="text3">Object orientation with PHP classes, methods and attributes</h2>
 <p>
+At this moment where we separate the man from the boys! In fact, now we're talking about <strong>O.O.</strong> (<em>Object Oriented</em>). In this repository, you will find examples of studies on <strong>constructors</strong>, <strong>static methods</strong>, <strong>code reuse</strong> and some theories about this part of programming.
 </p>
 </br>
