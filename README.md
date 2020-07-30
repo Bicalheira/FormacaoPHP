@@ -16,14 +16,14 @@ This repository is the result of the Formation PHP course of <a href="https://ww
 
 <h2 id="text1">Introduction to PHP Getting started with a language</h2>
 <p>
-  Where it all begins! With a <strong>hello world</strong>, of course! In this repository is the first chapter of the PHP study, where you can find simple code exaples with some   activities using basic structures like for, if, while and etc. Then to ends with a "challenge" to use everything that has been studied in this chapter.
+  Where it all begins! With a <strong>hello world</strong>, of course! In this repository is the first chapter of the PHP study, where you can find simple code examples with some activities using basic structures like for, if, while and etc. Then to ends with a "challenge" to use everything that has been studied in this chapter.
 </p>
 <p><code>echo "Hello World!;</code></p>
 </br>
 
 <h2 id="text2">Moving forward with PHP Arrays, Strings, Function and Web</h2>
 <p>
-  Advancing in content, we will see new things, like arrays and array in array (associative arrays), encapsulation and discoveries in the <strong>world of the web!</strong> And     of course, we cannot forget the study more about strings and interpolation, to finish passing some variables using references or values (have difference!).
+  Advancing in content, we will see new things, like arrays and array in array (associative arrays), encapsulation and discoveries in the <strong>world of the web!</strong> And of course, we cannot forget the study more about strings and interpolation, to finish passing some variables using references or values (have difference!).
 </p>
 </br>
 
