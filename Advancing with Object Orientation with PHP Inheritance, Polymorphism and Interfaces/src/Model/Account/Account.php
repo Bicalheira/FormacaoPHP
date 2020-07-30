@@ -1,5 +1,8 @@
 <?php
 
+namespace Alura\Bank\Model\Account;
+
+
 class Account
 {
   private Owner $owner;

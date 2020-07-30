@@ -1,9 +1,11 @@
 <?php
 
-require_once 'src/Account.php';
-require_once 'src/Address.php';
-require_once 'src/Owner.php';
-require_once 'src/Cpf.php';
+
+
+use Alura\Bank\Model\Account\Owner;
+use Alura\Bank\Model\Account\Account;
+use Alura\Bank\Model\Cpf;
+use Alura\Bank\Model\Address;
 
 $account1 = new Account(new Owner(new Cpf('111.111.111-11'), 'Lucas', new Address('City','Street','15','2922929')));
 
