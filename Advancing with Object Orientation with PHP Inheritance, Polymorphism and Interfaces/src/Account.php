@@ -56,11 +56,6 @@ class Account
     }
   }
 
-  // public function setBalance(float $balance)
-  // {
-  //   $this->balance = $balance;
-  // }
-
   public function getBalance(): float
   {
     return $this->balance;
@@ -70,7 +65,6 @@ class Account
   {
     return $this->owner->getName();
   }
-
 
   public function getOwnerCPF(): string
   {
