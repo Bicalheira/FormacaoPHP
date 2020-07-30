@@ -1,31 +1,23 @@
 <?php
 
-class Employee
+class Employee extends Person
 {
-  private string $name;
-  private Cpf $cpf;
   private string $position;
 
   public function __construct(string $name, Cpf $cpf, string $position)
   {
-    $this->name = $name;
-    $this->cpf = $cpf;
+    parent::__construct($name, $cpf);
     $this->position = $position;
   }
 
-  public function getName()
-  {
-    return $this->name;
-  }
-
-
-  public function getCpf()
-  {
-    return $this->cpf;
-  }
-
-  public function getPosition()
+  public function getPosition(): string
   {
     return $this->position;
+  }
+
+  public function alterName(string $name): void
+  {
+    $this->validatesName($name);
+    $this->name = $name;
   }
 }
