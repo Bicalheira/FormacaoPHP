@@ -1,11 +1,11 @@
 <p align="center">
 <img width="50%" style="max-width:100%;" src="https://user-images.githubusercontent.com/44374718/88841819-dec51d80-d1b4-11ea-9385-09c8c672836e.png" alt="PHP logo">
 </p>
+<br>
 <h1 align="center">Formation in PHP</h1>
+<br>
 <blockquote align="center">Formation progress: unfinished :warning:</blockquote>
-<!--
-<blockquote align="center">Formation progress: COMPLETED :heavy_check_mark:</blockquote>
--->
+<!--<blockquote align="center">Formation progress: COMPLETED :heavy_check_mark:</blockquote>-->
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=PHP&message=7.4.8&color=blue&style=flat-square&logo=PHP">
 </p>
