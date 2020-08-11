@@ -3,11 +3,11 @@
 namespace Alura\Bank\Model\Account;
 
 
-class Account
+abstract class Account
 {
-  private Owner $owner;
-  private float $balance;
-  private static int $accountNumbers = 0;
+  protected Owner $owner;
+  protected float $balance;
+  protected static int $accountNumbers = 0;
 
   public function __construct(Owner $owner)
   {
@@ -30,12 +30,16 @@ class Account
   public function withdraw(float $withdrawValue): void
   {
 
+    $withdrawFee = $withdrawValue * $this->percentageRate();
+
+    $withdrawFinalValue = $withdrawValue + $withdrawFee;
+
     if ($withdrawValue > $this->balance) {
       echo "Balance unavailable!" . PHP_EOL;
       return;
     }
 
-    $this->balance -= $withdrawValue;
+    $this->balance -= $withdrawFinalValue;
   }
 
   public function deposit(float $depositValue): void
@@ -48,16 +52,7 @@ class Account
     $this->balance += $depositValue;
   }
 
-  public function transfer(float $transferValue, Account $destinationAccount): void
-  {
-    if ($transferValue > $this->balance) {
-      echo "Balance unavailable!" . PHP_EOL;
-      return;
-    }
-    if (!$this->withdraw($transferValue)) {
-      $destinationAccount->deposit($transferValue);
-    }
-  }
+  abstract protected function percentageRate(): float;
 
   public function getBalance(): float
   {
