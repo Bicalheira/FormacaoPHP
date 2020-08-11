@@ -22,7 +22,7 @@
 <br>
 
 <p>
-This repository is the result of the Formation PHP course of <a href="https://www.alura.com.br"/><strong>Alura</strong></a> where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
+This repository is the result of the Formation PHP course of <a href="https://www.alura.com.br" target="_blank"><strong>Alura</strong></a> where I learned and practiced the language fundamental with good practices and the essential knowledge of a good object oriented modeling.
 </p>
 
 <br>
