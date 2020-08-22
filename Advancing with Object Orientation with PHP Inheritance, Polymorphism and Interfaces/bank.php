@@ -1,11 +1,7 @@
 <?php
 
-use Alura\Bank\Model\Account\Account;
-use Alura\Bank\Model\Account\Owner;
-use Alura\Bank\Model\Account\SavingsAccount;
-use Alura\Bank\Model\Account\CurrentAccount;
-use Alura\Bank\Model\Address;
-use Alura\Bank\Model\Cpf;
+use Alura\Bank\Model\Account\{SavingsAccount, CurrentAccount, Owner};
+use Alura\Bank\Model\{Address, Cpf};
 
 require_once 'src/auto-load.php';
 
