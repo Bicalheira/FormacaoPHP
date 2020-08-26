@@ -10,7 +10,7 @@ class Owner extends Person
 {
   private Address $address;
 
-  public function __construct(Cpf $cpf, string $name, Address $address)
+  public function __construct(string $name, Cpf $cpf,Address $address)
   {
     parent::__construct($name, $cpf);
     $this->address = $address;

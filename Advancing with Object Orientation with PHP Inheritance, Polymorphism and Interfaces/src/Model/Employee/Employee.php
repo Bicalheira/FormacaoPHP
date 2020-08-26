@@ -8,13 +8,11 @@ use Alura\Bank\Model\{Person, Cpf};
 
 abstract class Employee extends Person
 {
-  private string $position;
   private float $salary;
 
-  public function __construct(string $name, Cpf $cpf, string $position, float $salary)
+  public function __construct(string $name, Cpf $cpf, float $salary)
   {
     parent::__construct($name, $cpf);
-    $this->position = $position;
     $this->salary = $salary;
   }
 
@@ -34,17 +32,14 @@ abstract class Employee extends Person
     $this->name = $name;
   }
 
-  public function calculatedBonus(): float
+  public function increaseSalary(float $increaseValue): void
   {
-    return $this->salary * 0.1;
-  }
-
-  public function increaseSalary($increaseValue): void
-  {
-    if($increaseValue < 0){
+    if ($increaseValue < 0) {
       echo "Increase need be a positive value!";
     } else {
       $this->salary += $increaseValue;
     }
   }
+
+  abstract public function calculatedBonus(): float;
 }

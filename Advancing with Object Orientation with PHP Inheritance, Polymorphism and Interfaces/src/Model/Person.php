@@ -2,7 +2,7 @@
 
 namespace Alura\Bank\Model;
 
-class Person
+abstract class Person implements Authentic
 {
   protected string $name;
   protected Cpf $cpf;
@@ -30,5 +30,10 @@ class Person
       echo "The name needs at least five characters!";
       exit();
     }
+  }
+
+  public function canAuthenticate(string $password): bool
+  {
+    return $password === 'abcd';
   }
 }

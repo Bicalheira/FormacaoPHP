@@ -2,7 +2,9 @@
 
 namespace Alura\Bank\Model\Employee;
 
-class Director extends Employee
+use Alura\Bank\Model\Authentic;
+
+class Director extends Employee implements Authentic
 {
   public function calculatedBonus(): float
   {
