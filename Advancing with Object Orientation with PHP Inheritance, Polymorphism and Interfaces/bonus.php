@@ -1,7 +1,7 @@
 <?php
 
 use Alura\Bank\Model\Cpf;
-use Alura\Bank\Model\Employee\{Developer, Manager, Director, EditorVideo, VideoEditor};
+use Alura\Bank\Model\Employee\{Developer, Manager, Director, VideoEditor};
 use Alura\Bank\Service\BonusController;
 
 require_once "src/auto-load.php";
@@ -12,6 +12,8 @@ $employee3 = new Director('Fraga', new Cpf('333.333.333-33'), 5000);
 $employee4 = new VideoEditor('Layla', new Cpf('444.444.444-44'), 1500);
 
 $employee1->levelUp();
+
+echo $employee2->name;
 
 $controller = new BonusController();
 

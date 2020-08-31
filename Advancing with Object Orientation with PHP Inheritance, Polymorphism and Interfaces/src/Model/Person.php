@@ -4,6 +4,8 @@ namespace Alura\Bank\Model;
 
 abstract class Person implements Authentic
 {
+  use PropertiesAccess;
+
   protected string $name;
   protected Cpf $cpf;
 
@@ -24,7 +26,7 @@ abstract class Person implements Authentic
     return $this->cpf->getCpf();
   }
 
-  protected function validatesName(string $ownerName)
+  final protected function validatesName(string $ownerName)
   {
     if (strlen($ownerName) < 5) {
       echo "The name needs at least five characters!";

@@ -2,8 +2,10 @@
 
 namespace Alura\Bank\Model;
 
-class Address
+final class Address
 {
+  use PropertiesAccess;
+
   private string $city;
   private string $street;
   private string $number;
@@ -22,6 +24,11 @@ class Address
     return $this->city;
   }
 
+  public function setCity($city): void
+  {
+    $this->city = $city;
+  }
+
   public function getStreet(): string
   {
     return $this->street;
@@ -36,4 +43,11 @@ class Address
   {
     return $this->zip;
   }
+
+  public function __toString(): string
+  {
+    return "{$this->street}, {$this->number}, {$this->zip}, {$this->city}";
+  }
+
+  
 }
