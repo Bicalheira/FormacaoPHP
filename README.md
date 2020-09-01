@@ -65,7 +65,7 @@ At this moment where we separate the man from the boys! In fact, now we're talki
 <h2 id="text4">Advancing Object Oriented with PHP: Inheritance, Polymorphism and Interfaces</h2>
 
 <p>
- I went deeper into this subject studying how to work, use and configure namespace, alias, interfaces. The difference between abstract classes and interfaces, how to use inheritance and grant a method to not be overwritten
+ I went deeper into this subject studying how to work, use and configure <strong>namespace</strong>, <strong>alias</strong>, <strong>interfaces</strong>. The difference between abstract classes and interfaces, how to use inheritance and grant a method to not be overwritten.
 </p>
 
 <br>
