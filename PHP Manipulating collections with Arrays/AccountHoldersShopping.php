@@ -1,8 +1,8 @@
 <?php
 
-declare(strict_types=1);
+namespace Alura;
 
-require_once "arrayUtils.php";
+require "auto_load.php";
 
 $account_holders_and_shopping = ["Giovanni", "João", 12, "Maria", "Luis", "Luisa", "12"];
 

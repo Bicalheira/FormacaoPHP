@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura;
+
 class Calculator
 {
   public function calculateAverage(array $grades): ?float
