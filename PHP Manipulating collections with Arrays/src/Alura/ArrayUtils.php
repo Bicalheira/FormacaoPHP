@@ -13,4 +13,17 @@ class ArrayUtils
       echo "<p>Não foi encontrado no Array</p>";
     }
   }
+
+  public static function findPeopleBalanceBigger(int $balance, array $array): array
+  {
+    $accountHolderBalanceBigger = array();
+
+    foreach ($array as $key => $value) {
+      if ($value > $balance) {
+        $accountHolderBalanceBigger[] = $key;
+      }
+    }
+
+    return $accountHolderBalanceBigger;
+  }
 }

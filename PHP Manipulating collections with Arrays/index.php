@@ -2,4 +2,4 @@
 
 namespace Alura;
 
-require_once "AccountHoldersShopping.php";
+require_once "NonPayingAccountHolders.php";
