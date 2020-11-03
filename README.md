@@ -70,3 +70,8 @@ At this moment where we separate the man from the boys! In fact, now we're talki
 </p>
 
 <br>
+
+<h2 id="text5">PHP: Manipulating collections with Arrays</h2>
+<p>
+In this course, I had studied arrays and how to work with them, for example, functions that can operate arrays and CRUD. I Learned about the strict type of PHP, how to resolve automatic conversions of types, autoloader implementation, PSR-4 pattern, and how to use namespaces.
+</p>
