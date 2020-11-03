@@ -33,6 +33,8 @@ This repository is the result of the Formation PHP course of <a href="https://ww
   <li><a href="#text2">2º - Moving forward with PHP Arrays, Strings, Function and Web</a></li>
   <li><a href="#text3">3º - Object orientation with PHP classes, methods and attributes</a></li>
   <li><a href="#text4">4º - Advancing Object Oriented with PHP: Inheritance, Polymorphism and Interfaces</a></li>
+    <li><a href="#text5">5º - PHP: Manipulating collections with Arrays</a></li>
+
 </ul>
 
 <br>
